@@ -1,2 +1,1 @@
-# rsschool-cv
-test
+https://GITHUB-USERNAME.github.io/rsschool-cv/cv
