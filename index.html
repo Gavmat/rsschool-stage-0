@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>cv</title>
+    <link rel="icon" href="./assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@700&family=Rubik:wght@300;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <nav class="nav">
+                <ul class="nav-list">
+
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                </ul>
+            </nav>
+            <div class="toggle">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main-container">
+            <section class="section section-profile" id="profile">
+                <img src="./assets/img/photo-gavrin.jpg" alt="" class="section-profile-logo">
+                <div class="section-profile-title">
+                    <h1 class="section-title main-title">Gavrin Matvei</h1>
+                    <h3 class="section-subtitle">FrontEnd Developer</h3>
+                </div>
+                <div class="section-contacts" id="contacts">
+                    <h2 class="section-title">Contacts</h2>
+                    <ul class="section-list">
+                        <li class="section-item contacts-item">
+                            Moscow, Russia
+                        </li>
+                        <li class="section-item contacts-item">
+                            Email: <a href="mailto:gavmat@gmail.com" title="email">gavmat@gmail.com</a>
+                        </li>
+                        <li class="section-item contacts-item">
+                            Github: <a href="https://github.com/gavmat" title="github">gavmat</a>
+                        </li>
+                        <li class="section-item contacts-item">
+                            Discord: <a href="https://discord.gg/zUr7wWYPXE" title="github">gavmat#6002</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </section>
+
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p>
+                    I'm an engineer. Programming is my hobby.This is very interesting
+                    and exciting for me. I became interested in programming when I was 36 years old.
+                    And after a couple of years, I decided to change my profession
+                    and began to study programming more intensively.I am currently
+                    doing small projects on JS and React, but I hope to participate
+                    in large projects in the future.
+                </p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="section-list">
+                    <li class="section-item">
+                        Web-development:<span> HTML5, CSS3, JavaScript</span>
+                    </li>
+                    <li class="section-item">
+                        Frameworks and libraries:<span> React</span>
+                    </li>
+                    <li class="section-item">
+                        Version control:<span> GIT, Github</span>
+                    </li>
+                    <li class="section-item">
+                        Graphics:<span> Figma</span>
+                    </li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                <pre class="pre"><code>function pow(x, n) {
+    let result = 1;
+    for (let i = 0; i < n; i++) {
+     result *= x;
+    }
+    return result;
+}
+</code></pre>
+            </section>
+            <section class="section" id="courses">
+                <h2 class="section-title">Courses</h2>
+                <ul class="section-list">
+                    <li class="section-item">
+                        Hexlet<span> - JavaScript for beginner</span>
+                    </li>
+                    <li class="section-item">
+                        Udemy<span> - Bogdan Stashchuk. JavaScript</span>
+                    </li>
+                    <li class="section-item">
+                        Udemy<span> - Ivan Petrichenko. React</span>
+                    </li>
+                    <li class="section-item">
+                        Udemy<span> - React + Redux - Professional Development</span>
+                    </li>
+                </ul>
+            </section>
+            <section class="section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <p class="section-list">
+
+
+                    For now, you can get acquainted with my small projects on Git.
+                    I will show some sites made by me in the future.
+
+                </p>
+            </section>
+            <section class="section section-education" id="education">
+                <h2 class="section-title">Education</h2>
+                <p>Nizhny Novgorod Technical University</p>
+            </section>
+            <section class="section section-english" id="english">
+                <h2 class="section-title">English</h2>
+                <p>B1 - Pre-Intermediate</p>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <div>© 2022 <a href="https://github.com/gavmat" class="github nav-link">GavrinMatvey</a></div>
+            <a href="https://rs.school/js/" class="rss"></a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
